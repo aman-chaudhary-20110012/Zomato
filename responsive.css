@@ -1,0 +1,181 @@
+@media only screen and (max-width: 760px){
+    .navbar li a{
+        padding: 5px;
+        font-size: 16px;
+    }
+    .logo img{
+        width: 80px;
+        padding: 5px;
+        padding-left: 10px;
+    }
+    #home h1{
+        font-size: 70px;
+        padding-top: 100px;
+        font-family: 'Ubuntu', sans-serif;
+    
+    }
+    #home p{
+        font-size: 18px;
+        padding-top: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+    #our-services{
+        text-align: center;
+        padding: 20px;
+        justify-content: space-evenly;
+        
+    }
+    .service{
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .service-item{
+        display: block;
+        list-style: none;
+        padding: 8px;
+        width: 300px;
+        border: 2px solid red;
+        border-radius: 10px;
+    
+    }
+    .caption{
+        padding-top: 10px;
+    }
+    .caption h3{
+        font-size: 18px;
+        font-family: 'Work Sans', sans-serif; 
+    
+    }
+    .caption p{
+        font-size: 14px;
+        font-family: 'Work Sans', sans-serif; 
+    
+    }
+
+    #our-clients{
+        position: relative;
+        align-items: center;
+
+    }
+    .client-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    
+    }
+    .client-img img{
+        padding: 5px;
+        width: 70px;
+    
+    }
+    #contact-box input, 
+    #contact-box textarea{
+        font-size: 12px;
+    } 
+
+}
+
+@media only screen and (max-width: 490px){
+    .navbar li a{
+        padding: 4px;
+        font-size: 12px;
+    }
+    .logo img{
+        width: 60px;
+        padding: 5px;
+        padding-left: 10px;
+    }
+    #home h1{
+        font-size: 60px;
+        padding-top: 100px;
+        font-family: 'Ubuntu', sans-serif;
+    
+    }
+    #home p{
+        font-size: 16px;
+        padding-top: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+    #our-services{
+        text-align: center;
+        padding: 20px;
+        justify-content: space-evenly;
+        
+    
+    }
+    #our-services h1{
+        font-size: 30px;
+    }
+    .service{
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .service-item{
+        display: block;
+        list-style: none;
+        padding: 8px;
+        width: 300px;
+        border: 2px solid red;
+        border-radius: 10px;
+    
+    }
+    .caption{
+        padding-top: 10px;
+    }
+    .caption h3{
+        font-size: 16px;
+        font-family: 'Work Sans', sans-serif; 
+    
+    }
+    .caption p{
+        font-size: 12px;
+        font-family: 'Work Sans', sans-serif; 
+    
+    }
+    #our-clients h1{
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #our-clients{
+        position: relative;
+        align-items: center;
+
+    }
+    .client-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    
+    }
+    .client-img img{
+        padding: 5px;
+        width: 50px;
+    
+    }
+    #contact-us h1{
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        padding: 10px;
+    }
+    #contact-box input, 
+#contact-box textarea{
+    font-size: 10px;
+} 
+
+}
+
+
